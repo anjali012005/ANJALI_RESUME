@@ -2,7 +2,6 @@ import React from 'react';
 import './Homesec.css';
 // import hand_icon from '../Assets/hand_icon.png';
 import ANJALI from '../Assets/ANJALI.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {FaLinkedin} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 import {FaEnvelope} from 'react-icons/fa'
