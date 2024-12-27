@@ -1,0 +1,107 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f6bd60;
+    padding: 10px;
+}
+
+
+/* Hero Left Section */
+.hero-left {
+    flex: 1;
+    padding-left: 300px;
+    padding-bottom: 150px;
+    /* Spacing between text and the image */
+}
+
+.hero-left h3 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.hero-left h1 {
+    font-size: 44px;
+    color: #333;
+    /* Highlight color */
+    margin-bottom: 5px;
+}
+
+/* Hero Right Section */
+.hero-right {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-right img {
+    width: 100%;
+    max-width: 300px;
+    /* border-radius: 50%; */
+    /* Circular image */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    /* Subtle shadow */
+    object-fit: cover;
+    /* Ensure the image covers its box */
+}
+
+.social-media-icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;  
+}
+
+.icons{
+    margin-left: 50px;
+}
+
+.div-button {
+    margin-top: 40px;
+}
+
+.button {
+    background-color: #ff0000; /* Bright red background */
+    color: #ffffff; /* White text for contrast */
+    border: none; /* Remove default borders */
+    border-radius: 8px; /* Rounded corners for better aesthetics */
+    font-size: 18px; /* Larger font size */
+    padding: 12px 20px; /* Add padding for size */
+    cursor: pointer; /* Pointer cursor for hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+
+.button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* More shadow on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-left {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .hero-right img {
+        max-width: 200px;
+    }
+}

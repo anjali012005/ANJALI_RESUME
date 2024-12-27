@@ -1,0 +1,143 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* About Section */
+.about-sec {
+    display: flex;
+    flex-direction: column;
+    /* Arrange items vertically */
+    justify-content: center;
+    /* Center items vertically */
+    align-items: center;
+    /* Center items horizontally */
+    height: 100vh;
+    /* Full viewport height */
+    text-align: center;
+    /* Center-align text inside */
+    background: #f4f4f4;
+    /* Light background color for contrast */
+    padding: 20px;
+    /* Add padding for small screens */
+}
+
+/* Skills header with colorful underline */
+.skills-header {
+    position: relative;
+    display: inline-block;
+    /* Ensure the underline adjusts to the text width */
+    font-size: 2.5rem;
+    /* Larger header size */
+    color: #333;
+    /* Darker color for contrast */
+    margin-bottom: 20px;
+    /* Space below the header */
+}
+
+.skills-header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    /* Position the line slightly below the text */
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #ffcc00, #f7c940, #2b88d8, #9b59b6);
+    /* Canva-style gradient */
+    border-radius: 2px;
+}
+
+/* Transparent box */
+.transparent-box {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically (optional if needed) */
+    /* width: 8; */
+
+}
+
+/* Paragraph text */
+.transparent-box p {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    max-width: 70%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Skills Section */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 items per row */
+    gap: 30px;
+    /* Space between items */
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    /* Space above skills section */
+    padding: 0 20px;
+    /* Padding for responsiveness */
+}
+
+/* Skill Card */
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #e7c95c, #fdbf44, #cf754f);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    height: 250px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.4;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .skills {
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 items per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 items per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .skills {
+        grid-template-columns: 1fr;
+        /* 1 item per row */
+    }
+}
