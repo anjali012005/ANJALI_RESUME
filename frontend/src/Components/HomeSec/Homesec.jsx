@@ -27,7 +27,7 @@ const Home = () => {
                 <button className='button'>
                 <a 
                     href="/ANJALI_RESUME.pdf" 
-                    download="ANJALI_RESUME1.pdf"
+                    download="ANJALI_RESUME.pdf"
                     style={{ textDecoration: 'none', color: 'inherit' }}
                 >
                     Download Resume
