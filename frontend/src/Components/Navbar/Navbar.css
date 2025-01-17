@@ -24,14 +24,16 @@
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     cursor: pointer;
 }
 
 .nav-logo h1 {
-    border-radius: 50%;
-    color: rgb(255, 192, 46);
+    border-radius: 3%;
+    color: #16C47F;
+    padding: 5px;
     transition: transform 0.3s ease;
+    border: 1px solid #16C47F;
 }
 
 .nav-logo img:hover {

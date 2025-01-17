@@ -1,0 +1,88 @@
+.education-container {
+    height: 100vh;
+    /* background-color: brown; */
+}
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#education {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 40px;
+}
+
+/* Timeline Container */
+.timeline {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 100%;
+}
+
+.timeline-content h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #0073e6;
+}
+
+.timeline-content p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Timeline Dot */
+.timeline-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #0073e6;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    /* Adjust based on design */
+    transform: translateX(-50%);
+}
+
+.timeline-item:nth-child(odd) .timeline-dot {
+    left: -30px;
+    /* Align left for odd items */
+}
+
+.timeline-item:nth-child(even) .timeline-dot {
+    left: calc(100% + 10px);
+    /* Align right for even items */
+}

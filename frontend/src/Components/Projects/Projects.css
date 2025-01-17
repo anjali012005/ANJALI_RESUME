@@ -1,0 +1,52 @@
+.projects-container {
+    height: 130vh;
+    width: 100%;
+    background: red;
+}
+
+.projects-container h2{
+    /* padding-left: 50px; */
+    display: flex;
+    justify-self: center;
+    /* background-color: #555; */
+    padding-top: 25px;
+}
+
+/* StaticCard.css */
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(25, 50, 55, 1);
+    overflow: hidden;
+    width: 300px;
+    margin: 16px;
+    background-color: #fff;
+}
+
+.projects-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.static-card-image {
+    width: 100%;
+    height: auto;
+}
+
+.static-card-content {
+    padding: 16px;
+}
+
+.static-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.static-card-description {
+    font-size: 1rem;
+    color: #555;
+}

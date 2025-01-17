@@ -1,0 +1,63 @@
+/* CirclesWithLine.css */
+
+.experience-container {
+    /* background-color: blue; */
+    height: 100vh;
+    display: flex;
+    gap:50px;
+    padding-left: 200px;
+    /* justify-content: space-around; */
+}
+
+
+
+.container-ex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    margin: 20px;
+    margin-top: 150px;
+}
+
+
+.circle-ex {
+    width: 100px;
+    height: 100px;
+    background-color: #4caf50;
+    border-radius: 50%;
+    /* margin-top: 100px; */
+}
+
+.line-ex {
+    height: 300px;
+    width: 4px;
+    background-color: #000;
+}
+
+.ex-img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 400px;
+    padding-top: 50px;
+    gap: 50px;
+    margin-top: 80px;
+    /* background-color: orange; */
+    /* margin-right: -100px; */
+}
+
+.ex-img img{
+    border-radius: 15%;
+}
+
+.ex-text{
+    margin-top: 180px;
+}
+
+.text-ex-container{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}

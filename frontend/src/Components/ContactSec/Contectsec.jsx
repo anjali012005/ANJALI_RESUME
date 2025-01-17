@@ -3,7 +3,7 @@ import './Contentsec.css'
 
 const ContectSec = () => {
     return (
-        <div className="contact-container">
+        <div id="contact" className="contact-container">
             <div className="contact-content">
                 <h2>Contact Me</h2>
                 <p>

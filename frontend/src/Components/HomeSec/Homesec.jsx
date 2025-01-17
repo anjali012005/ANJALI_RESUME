@@ -1,7 +1,7 @@
 import React from 'react';
 import './Homesec.css';
 // import hand_icon from '../Assets/hand_icon.png';
-import ANJALI from '../Assets/ANJALI.png';
+import ANJALI from '../../assets/ANJALI.jpg';
 import {FaLinkedin} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 import {FaEnvelope} from 'react-icons/fa'
@@ -17,11 +17,16 @@ const Home = () => {
                 <b><h1>I AM ANJALI DAHARWAL</h1></b>
                 <h3>APP DEVELOPER & FULL STACK DEVELOPER</h3>
                 <div className="social-media-icons">
-                <FaLinkedin size={40} color="#black" />
-                <FaGithub className='icons' size={40} color="#black" />
-                <FaEnvelope className='icons' size={40} color="#black" />
-                <FaTwitter className='icons' size={40} color="#black" />
-                <FaSkype className='icons' size={40} color="#black" />
+                <a  style={{ textDecoration: 'none', color: 'black' }} href='https://www.linkedin.com/in/anjali-daharwal/'><FaLinkedin size={40} /></a>
+
+                <a  style={{ textDecoration: 'none', color: 'black' }} href="https://github.com/anjali012005"><FaGithub className='icons' size={40} /></a>
+                
+                <a style={{ textDecoration: 'none', color: 'black' }} href="mailto:anjalidaharwal5@gmail.com?subject=Reaching Out Through Your Portfolio Website"><FaEnvelope className='icons' size={40} /></a>
+
+                <a style={{ textDecoration: 'none', color: 'black' }}  href="https://x.com/anjali01010101"><FaTwitter className='icons' size={40} /></a>
+                
+                <a style={{ textDecoration: 'none', color: 'black' }} href="https://join.skype.com/invite/pVkLSjedzt2e"><FaSkype className='icons' size={40}  /></a>
+                
                 </div>
                 <div className='div-button'>
                 <button className='button'>
