@@ -22,9 +22,10 @@
 
 /* Hero Left Section */
 .hero-left {
-    flex: 1;
-    padding-left: 300px;
+    flex: 40%;
+    padding-left: 200px;
     padding-bottom: 10px;
+    /* background-color: blue; */
     /* Spacing between text and the image */
 }
 
@@ -45,15 +46,16 @@
 
 /* Hero Right Section */
 .hero-right {
-    flex: 1;
+    flex: 60%;
     text-align: center;
 }
 
 .hero-right img {
-    width: 900px;
-    padding: 50px;
+    width: 700px;
+    padding: 50px 0 50px 0;
     /* max-width: 500px; */
     height: 100vh;
+    max-width: 100%;
     /* border-radius: 50%; */
     /* Circular image */
     /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
@@ -65,12 +67,16 @@
 .social-media-icons {
     margin-top: 30px;
     display: flex;
-    justify-content: left;  
-    color: #EFB6C8;
+    justify-content: left;
 }
 
-.icons{
+.icons {
     margin-left: 50px;
+    font-size: 40px;
+}
+
+.icons-l{
+    font-size: 40px;
 }
 
 .div-button {
@@ -80,36 +86,385 @@
 .button {
     /* background-color: #ff0000; Bright red background */
     background: #F93827;
-    color: #ffffff; /* White text for contrast */
-    border: none; /* Remove default borders */
-    border-radius: 8px; /* Rounded corners for better aesthetics */
-    font-size: 18px; /* Larger font size */
-    padding: 12px 20px; /* Add padding for size */
-    cursor: pointer; /* Pointer cursor for hover effect */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    transition: all 0.3s ease; /* Smooth transitions */
+    color: #ffffff;
+    /* White text for contrast */
+    border: none;
+    /* Remove default borders */
+    border-radius: 8px;
+    /* Rounded corners for better aesthetics */
+    font-size: 18px;
+    /* Larger font size */
+    padding: 12px 20px;
+    /* Add padding for size */
+    cursor: pointer;
+    /* Pointer cursor for hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    transition: all 0.3s ease;
+    /* Smooth transitions */
 }
 
 .button:hover {
-    background-color: #cc0000; /* Darker red on hover */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* More shadow on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    background-color: #cc0000;
+    /* Darker red on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    /* More shadow on hover */
+    transform: scale(1.05);
+    /* Slightly enlarge on hover */
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-    .container {
+@media (max-width: 1068px) {
+    /* .container {
         flex-direction: column;
         text-align: center;
         padding: 20px;
-    }
+    } */
 
     .hero-left {
-        padding-right: 0;
-        margin-bottom: 20px;
+        padding-left: 30px;
+        padding-bottom: 10px;
     }
 
     .hero-right img {
-        max-width: 200px;
+        width: 400px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 897px) {
+
+    .hero-left {
+        padding-right: -20px;
+        /* background-color: blue; */
+    }
+
+    .hero-left h3 {
+        font-size: 15px;
+    }
+
+    .hero-left h1 {
+        font-size: 34px;
+    }
+
+    .hero-right img {
+        width: 300px;
+    }
+
+    .icons {
+        font-size: 25px;
+    }
+    .icons-l {
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width: 715px) {
+
+    .hero-left {
+        padding-right: -30px;
+        /* background-color: blue; */
+    }
+
+    .hero-left h3 {
+        font-size: 13px;
+    }
+
+    .hero-left h1 {
+        font-size: 30px;
+    }
+
+    .hero-right img {
+        width: 300px;
+    }
+
+    .icons {
+        font-size: 25px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 615px) {
+
+    .hero-left {
+        padding-right: -20px;
+        /* background-color: blue; */
+    }
+
+    .hero-left h3 {
+        font-size: 10px;
+    }
+
+    .hero-left h1 {
+        font-size: 20px;
+    }
+
+    .hero-right img {
+        width: 250px;
+        height: 500px;
+    }
+    .button {
+        font-size: 10px;
+    }
+
+    .icons{
+        font-size: 16px;
+        margin-left: 18px;
+    }
+    .icons-l{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 565px) {
+    .home{
+        box-sizing: border-box;
+        border: 2px solid black;
+        margin: 20px;
+        height: 60vh;
+        /* background-color: #F93827; */
+    }
+
+    .hero-left {
+        padding-right: -30px;
+        /* background-color: blue; */
+    }
+
+    .hero-left h3 {
+        font-size: 8px;
+    }
+
+    .hero-left h1 {
+        font-size: 18px;
+    }
+    .hero-right img {
+        margin-top: -50px;
+        width: 250px;
+        height: 350px;
+    }
+
+    .icons{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .icons-l{
+        font-size: 15px;
+    }
+    .button {
+        font-size: 6px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .home{
+        box-sizing: border-box;
+        border: 2px solid black;
+        margin: 30px;
+        height: 60vh;
+        /* background-color: #F93827; */
+    }
+
+    .hero-left h3 {
+        font-size: 5px;
+    }
+
+    .hero-left h1 {
+        font-size: 8px;
+    }
+    .hero-right img {
+        width: 150px;
+        height: 250px;
+    }
+    .social-media-icons{
+        margin-top: 10px;
+    }
+
+    .icons{
+        font-size: 10px;
+        margin-left: 6px;
+    }
+    .icons-l{
+        font-size: 10px;
+    }
+    .button {
+        font-size: 4px;
+        padding: 5px;
+    }
+    .div-button{
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 345px) {
+    .home{
+        height: 50vh;
+    }
+
+    .hero-left h3 {
+        font-size: 4px;
+    }
+    .hero-left{
+        margin-top: -40px;
+    }
+
+    .hero-left h1 {
+        font-size: 5px;
+        font-weight: 800;
+    }
+    .hero-right img {
+        width: 120px;
+        height: 220px;
+    }
+    .social-media-icons{
+        margin-top: 10px;
+    }
+
+    .icons{
+        font-size: 8px;
+        margin-left: 6px;
+    }
+    .icons-l{
+        font-size: 8px;
+    }
+    .button {
+        font-size: 4px;
+        padding: 6px;
+    }
+    .div-button{
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 281px) {
+    .home{
+        height: 30vh;
+    }
+
+    .hero-left h3 {
+        font-size: 4px;
+    }
+    .hero-left{
+        margin-left: -20px;
+        padding-top: 50px;
+    }
+
+    .hero-left h1 {
+        font-size: 5px;
+        font-weight: 800;
+    }
+    .hero-right{
+        padding-top: 50px;
+    }
+    .hero-right img {
+        width: 90px;
+        height: 200px;
+    }
+    .social-media-icons{
+        margin-top: 10px;
+    }
+
+    .icons{
+        font-size: 8px;
+        margin-left: 6px;
+    }
+    .icons-l{
+        font-size: 8px;
+    }
+    .button {
+        font-size: 4px;
+        padding: 6px;
+    }
+    .div-button{
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 281px) {
+    .home{
+        height: 30vh;
+        margin: 20px;
+    }
+
+    .hero-left h3 {
+        font-size: 3px;
+    }
+    .hero-left{
+        margin-left: -20px;
+        padding-top: 25px;
+    }
+
+    .hero-left h1 {
+        font-size: 4px;
+        font-weight: 800;
+    }
+    .hero-right{
+        padding-top: 20px;
+    }
+    .hero-right img {
+        width: 70px;
+        height: 180px;
+    }
+
+    .icons{
+        font-size: 8px;
+        margin-left: 4px;
+    }
+    .icons-l{
+        font-size: 8px;
+    }
+    .button {
+        font-size: 3px;
+        padding: 3px;
+    }
+    .div-button{
+        margin-top: 1px;
+    }
+}
+
+@media (max-width: 230px) {
+    .home{
+        height: 30vh;
+        margin: 20px;
+    }
+    
+
+    .hero-left h3 {
+        font-size: 3px;
+    }
+    .hero-left{
+        margin-left: -20px;
+        padding-top: 25px;
+    }
+
+    .hero-left h1 {
+        font-size: 4px;
+        font-weight: 800;
+    }
+    .hero-right{
+        padding-top: 20px;
+    }
+    .hero-right img {
+        width: 70px;
+        height: 180px;
+    }
+    .social-media-icons{
+        margin-top: 2px;
+    }
+
+    .icons{
+        font-size: 6px;
+        margin-left: 4px;
+    }
+    .icons-l{
+        font-size: 6px;
+    }
+    .button {
+        font-size: 3px;
+        padding: 3px;
+    }
+    .div-button{
+        margin-top: 1px;
     }
 }

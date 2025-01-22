@@ -16,16 +16,17 @@ const Home = () => {
                 <h3>HEY THERE!</h3>
                 <b><h1>I AM ANJALI DAHARWAL</h1></b>
                 <h3>APP DEVELOPER & FULL STACK DEVELOPER</h3>
-                <div className="social-media-icons">
-                <a  style={{ textDecoration: 'none', color: 'black' }} href='https://www.linkedin.com/in/anjali-daharwal/'><FaLinkedin size={40} /></a>
+                <div 
+                className="social-media-icons">
+                <a  style={{ textDecoration: 'none', color: 'black' }} href='https://www.linkedin.com/in/anjali-daharwal/'><FaLinkedin className='icons-l' /></a>
 
-                <a  style={{ textDecoration: 'none', color: 'black' }} href="https://github.com/anjali012005"><FaGithub className='icons' size={40} /></a>
+                <a  style={{ textDecoration: 'none', color: 'black' }} href="https://github.com/anjali012005"><FaGithub className='icons' /></a>
                 
-                <a style={{ textDecoration: 'none', color: 'black' }} href="mailto:anjalidaharwal5@gmail.com?subject=Reaching Out Through Your Portfolio Website"><FaEnvelope className='icons' size={40} /></a>
+                <a style={{ textDecoration: 'none', color: 'black' }} href="mailto:anjalidaharwal5@gmail.com?subject=Reaching Out Through Your Portfolio Website"><FaEnvelope className='icons'  /></a>
 
-                <a style={{ textDecoration: 'none', color: 'black' }}  href="https://x.com/anjali01010101"><FaTwitter className='icons' size={40} /></a>
+                <a style={{ textDecoration: 'none', color: 'black' }}  href="https://x.com/anjali01010101"><FaTwitter className='icons'  /></a>
                 
-                <a style={{ textDecoration: 'none', color: 'black' }} href="https://join.skype.com/invite/pVkLSjedzt2e"><FaSkype className='icons' size={40}  /></a>
+                <a style={{ textDecoration: 'none', color: 'black' }} href="https://join.skype.com/invite/pVkLSjedzt2e"><FaSkype className='icons'  /></a>
                 
                 </div>
                 <div className='div-button'>

@@ -101,3 +101,98 @@
     color: #2F3020;
     font-weight: bold;
 }
+
+@media (max-width: 648px) {
+    .nav-logo h1 {
+        font-size: 20px;
+    }
+
+    .nav-menu {
+        gap: 40px;
+    }
+
+}
+
+@media(max-width: 550px) {
+    .nav-logo h1 {
+        font-size: 18px;
+    }
+
+    .nav-menu {
+        gap: 20px;
+    }
+
+    .nav-menu a{
+        font-size: 16px;
+    }
+
+    .nav-menu li {
+        font-size: 10px;
+    }
+}
+
+
+@media(max-width: 450px) {
+    .nav-logo h1 {
+        font-size: 16px;
+    }
+
+    .nav-menu {
+        gap: 12px;
+    }
+
+    .nav-menu a{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 385px) {
+    .nav-logo h1 {
+        font-size: 10px;
+    }
+    .nav-menu a{
+        font-size: 12px;
+    }
+    .navbar{
+        height: 60px;
+    }
+}
+
+@media(max-width: 330px) {
+    .nav-logo h1 {
+        font-size: 8px;
+        margin-right: 10px;
+    }
+    .nav-menu a{
+        font-size: 10px;
+    }
+    .navbar{
+        height: 50px;
+    }
+}
+
+
+@media(max-width: 255px) {
+    .nav-logo h1 {
+        font-size: 6px;
+        margin-right: 10px;
+    }
+    .nav-menu a{
+        font-size: 8px;
+    }
+    .navbar{
+        height: 45px;
+    }
+}
+
+@media(max-width: 215px) {
+    .nav-logo h1 {
+        font-size: 4px;
+    }
+    .nav-menu a{
+        font-size: 6px;
+    }
+    .navbar{
+        height: 40px;
+    }
+}

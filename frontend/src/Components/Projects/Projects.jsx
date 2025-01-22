@@ -5,6 +5,7 @@ import img1 from '../Assets/experince-img.jpg'
 const Projects = () => {
     return (
         <div id="projects" className='projects-container'>
+            <hr/>
             <h2>__ MY PROJECTS __</h2>
             <div className='projects-card-container'>
                 <div className='project-card'>
@@ -14,7 +15,7 @@ const Projects = () => {
                         className="static-card-image"
                     />
                     <div className="static-card-content">
-                        <h3 className="static-card-title">Static Card Title</h3>
+                        <h3 className="static-card-title">Static Card Title  <a href="#">hey</a></h3>
                         <p className="static-card-description">
                             This is a description for a static card. The content is hardcoded.
                         </p>
@@ -28,7 +29,7 @@ const Projects = () => {
                         className="static-card-image"
                     />
                     <div className="static-card-content">
-                        <h3 className="static-card-title">Static Card Title</h3>
+                        <h3 className="static-card-title">Static Card Title  <a href="#">hey</a></h3>
                         <p className="static-card-description">
                             This is a description for a static card. The content is hardcoded.
                         </p>
@@ -42,7 +43,7 @@ const Projects = () => {
                         className="static-card-image"
                     />
                     <div className="static-card-content">
-                        <h3 className="static-card-title">Static Card Title</h3>
+                        <h3 className="static-card-title">Static Card Title  <a href="#">hey</a></h3>
                         <p className="static-card-description">
                             This is a description for a static card. The content is hardcoded.
                         </p>
@@ -56,7 +57,7 @@ const Projects = () => {
                         className="static-card-image"
                     />
                     <div className="static-card-content">
-                        <h3 className="static-card-title">Static Card Title</h3>
+                        <h3 className="static-card-title">Static Card Title  <a href="#">hey</a></h3>
                         <p className="static-card-description">
                             This is a description for a static card. The content is hardcoded.
                         </p>
@@ -70,7 +71,7 @@ const Projects = () => {
                         className="static-card-image"
                     />
                     <div className="static-card-content">
-                        <h3 className="static-card-title">Static Card Title</h3>
+                        <h3 className="static-card-title">Static Card Title  <a href="#">hey</a></h3>
                         <p className="static-card-description">
                             This is a description for a static card. The content is hardcoded.
                         </p>
