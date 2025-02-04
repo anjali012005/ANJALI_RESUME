@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <div id="projects" className='projects-container'>
             <hr/>
-            <h2>__ MY PROJECTS __</h2>
+            <h2>- MY PROJECTS - </h2>
             <div className='projects-card-container'>
                 <div className='project-card'>
                     <img
