@@ -19,7 +19,6 @@ const AboutMe = () => {
 
                     <p> With a strong foundation in programming, including Java, Python, and the MERN stack, I’ve successfully built dynamic and scalable web applications, like ShopSpot and EasyBook.
                     </p>
-                    &nbsp;
                     <p>
                         Beyond coding, I enjoy combining creativity with problem-solving to craft user-friendly interfaces and robust backends. Whether it’s diving into machine learning, creating intuitive designs with Tailwind CSS, or developing decentralized solutions, I love turning ideas into impactful digital experiences.
                     </p>

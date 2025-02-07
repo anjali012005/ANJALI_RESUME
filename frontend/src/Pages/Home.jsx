@@ -11,7 +11,6 @@ const Home = () => {
     return (
         <>
             <Homesec />
-            {/* <AboutMe /> */}
             <Aboutsec />
             <Projects />
             {/* <ExperienceSec /> */}
