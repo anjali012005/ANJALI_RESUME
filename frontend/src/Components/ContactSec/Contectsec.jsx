@@ -1,9 +1,13 @@
 import React from 'react';
 import './Contentsec.css'
+import contactimg from '../../assets/backimg.png'
 
 const ContectSec = () => {
     return (
         <div id="contact" className="contact-container">
+            <div className='contact-left-container'>
+                <img src={contactimg} alt=""></img>
+            </div>
             <div className="contact-content">
                 <h2>Contact Me</h2>
                 <p>
@@ -25,6 +29,7 @@ const ContectSec = () => {
                     <button type="submit" className="submit-btn">Send Message</button>
                 </form>
             </div>
+
         </div>
     );
 };
