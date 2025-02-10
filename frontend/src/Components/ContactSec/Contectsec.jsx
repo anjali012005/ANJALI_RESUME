@@ -7,6 +7,7 @@ const ContectSec = () => {
         <div id="contact" className="contact-container">
             <div className='contact-left-container'>
                 <img src={contactimg} alt=""></img>
+                <h4>Let's connect and create new impact in tech.</h4>
             </div>
             <div className="contact-content">
                 <h2>Contact Me</h2>
