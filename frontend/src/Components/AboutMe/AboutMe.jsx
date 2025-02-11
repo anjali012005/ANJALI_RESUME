@@ -31,7 +31,7 @@ const AboutMe = () => {
                     </p>
 
                     <div className='btn-disc'>
-                        <button className='about-btn'>Let's Connect  <IoIosArrowDroprightCircle size={22} /></button>
+                        <a href="/contact"><button className='about-btn'>Let's Connect  <IoIosArrowDroprightCircle size={22} /></button></a>
 
                     </div>
                 </div>

@@ -50,6 +50,10 @@
     padding: 50px;
 }
 
+.btn-disc a{
+    text-decoration: none;
+}
+
 
 .about-btn {
     height: 50px;
@@ -64,6 +68,7 @@
     padding: 15px;
     background-color: #16C47F;
     color: black;
+    cursor: pointer;
     /* margin-left: 5px; */
     /* padding-right: 5px; */
 }

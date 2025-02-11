@@ -28,6 +28,8 @@
 .about-header h4 {
     font-size: 20px;
     margin-bottom: 10px;
+    text-align: justify;
+    hyphens: auto;
 }
 
 .skills-header {
@@ -402,4 +404,43 @@
         font-size: 6px;
     }
 }
+
+@media (max-width: 215px) {
+    .skills{
+        grid-template-columns: repeat(3, minmax(30px, 1fr));
+    }
+
+    .skill-card{
+        height: 35px;
+        width: 35px;
+    }
+
+    .about-sec {
+        gap: 4px;
+    }
+
+    .skill-card h3{
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 174px) {
+    .skills{
+        grid-template-columns: repeat(2, minmax(30px, 1fr));
+    }
+
+    .skill-card{
+        height: 30px;
+        width: 30px;
+    }
+
+    .about-sec {
+        gap: 4px;
+    }
+
+    .skill-card h3{
+        font-size: 5px;
+    }
+}
+
 
