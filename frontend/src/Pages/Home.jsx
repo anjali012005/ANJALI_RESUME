@@ -15,7 +15,6 @@ const Home = () => {
             <Projects />
             {/* <ExperienceSec /> */}
             {/* <Education /> */}
-            <Footer />
         </>
     )
 }
