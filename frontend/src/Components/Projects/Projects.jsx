@@ -1,6 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import img1 from '../Assets/experince-img.jpg'
+import img2 from '../Assets/experince-img2.jpg'
 
 const Projects = () => {
     return (
@@ -74,12 +75,10 @@ const Projects = () => {
                         <h3 className="static-card-title">Static Card Title  <a href="#">hey</a></h3>
                         <p className="static-card-description">
                             This is a description for a static card. The content is hardcoded.
-                        </p>
-                    </div>
+                        </p>    
+                    </div>  
                 </div>
-
             </div>
-
         </div>
     )
 }
