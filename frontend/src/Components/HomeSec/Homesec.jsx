@@ -32,11 +32,10 @@ const Home = () => {
                 <div className='div-button'>
                 <button className='button'>
                 <a 
-                    href="/ANJALI_RESUME.pdf" 
-                    download="ANJALI_RESUME.pdf"
+                    href="https://drive.google.com/file/d/12X--Ia_I7zyy4wBuzxBsdpsQmbDWdB2f/view?usp=drivesdk" 
                     style={{ textDecoration: 'none', color: 'inherit' }}
                 >
-                    Download Resume
+                    View Resume
                 </a>
             </button>
                 </div>
