@@ -10,7 +10,7 @@ const Education = () => {
                     {/* <!-- Education Item 1 --> */}
                     <div class="timeline-item">
                         <div class="timeline-content">
-                            <h3>Bachelor's in Computer Science</h3>
+                            <h3>Bachelor's of Engineering (CS)</h3>
                             <p>Jiwaji University, 2022 - 2026</p>
                             <p>CGPA : 7.5</p>
                         </div>

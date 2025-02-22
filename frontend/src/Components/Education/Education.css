@@ -55,7 +55,7 @@ body {
 .timeline-content h3 {
     margin: 0 0 10px;
     font-size: 1.5rem;
-    color: #0073e6;
+    color: #16C47F;
 }
 
 .timeline-content p {
@@ -68,7 +68,7 @@ body {
 .timeline-dot {
     width: 20px;
     height: 20px;
-    background-color: #0073e6;
+    background-color: #16C47F;
     border: 4px solid #fff;
     border-radius: 50%;
     position: absolute;
@@ -85,4 +85,140 @@ body {
 .timeline-item:nth-child(even) .timeline-dot {
     left: calc(100% + 10px);
     /* Align right for even items */
+}
+
+@media(max-width:1246px){
+    .education-container{
+        height: 110vh;
+    }
+}
+
+@media(max-width:558px){
+    .education-container{
+        height: 110vh;
+    }
+
+    .timeline{
+        margin-left: 70px;
+    }
+
+    .timeline-content{
+        width: 75%;
+        padding-left: 50px;
+    }
+
+    .timeline-content h3{
+        font-size: 13px;
+    }
+
+    .timeline-content p{
+        font-size: 10px;
+    }
+
+    .timeline-item:nth-child(even) .timeline-dot {
+        left: calc(80% + 10px);
+        /* Align right for even items */
+    }
+}
+
+@media(max-width:368px){
+    .timeline{
+        margin-left: 70px;
+    }
+
+    .timeline-content{
+        width: 75%;
+        padding-left: 20px;
+    }
+
+    .timeline-content h3{
+        font-size: 10px;
+    }
+
+    .timeline-content p{
+        font-size: 8px;
+    }
+
+    #education h2 {
+        font-size: 1.2rem;
+        color: #222;
+        margin-bottom: 40px;
+        padding-left: 20px;
+    }
+    
+}
+
+@media(max-width:296px){
+    .timeline{
+        margin-left: 20px;
+    }
+
+    .timeline-content{
+        width: 95%;
+        padding-left: 20px;
+    }
+
+    .timeline-content h3{
+        font-size: 10px;
+    }
+
+    .timeline-content p{
+        font-size: 8px;
+    }
+
+    #education h2 {
+        font-size: 1.2rem;
+        color: #222;
+        margin-bottom: 40px;
+        padding-left: 20px;
+    }
+    .timeline-item:nth-child(even) .timeline-dot {
+        display: none;
+        /* Align right for even items */
+    }
+    .timeline-item:nth-child(odd) .timeline-dot {
+        display: none;
+        /* Align left for odd items */
+    }
+    
+}
+
+@media(max-width:217px){
+    .education-container{
+        height: 70vh;
+    }
+
+    .timeline{
+        margin-left: 10px;
+    }
+
+    .timeline-content{
+        width: 100%;
+        padding-left: 10px;
+        padding: 10px;
+    }
+
+    .timeline-content h3{
+        font-size: 10px;
+    }
+
+    .timeline-content p{
+        font-size: 8px;
+    }
+
+    #education h2 {
+        font-size: 1rem;
+        color: #222;
+        margin-bottom: 40px;
+        padding-left: 0;
+    }
+    .timeline-item:nth-child(even) .timeline-dot {
+        display: none;
+        /* Align right for even items */
+    }
+    .timeline-item:nth-child(odd) .timeline-dot {
+        display: none;
+        /* Align left for odd items */
+    }
+    
 }
