@@ -1,7 +1,8 @@
 import React from 'react'
 import './Projects.css'
 import img1 from '../Assets/experince-img.jpg'
-import img2 from '../Assets/easybook.jpg'
+import easybook from '../../assets/easybook.jpg'
+import shopspot from '../../assets/shopspot.jpg'
 // import img2 from 'frontend/src/assets/easybook.jpg'
 
 const Projects = () => {
@@ -17,9 +18,9 @@ const Projects = () => {
                         className="static-card-image"
                     />
                     <div className="static-card-content">
-                        <h3 className="static-card-title">Static Card Title  <a href="https://easybook.onrender.com/listings">Live</a></h3>
+                        <h3 className="static-card-title">EasyBook <a href="https://easybook.onrender.com/listings">Live</a></h3>
                         <p className="static-card-description">
-                        EasyBook offers a seamless interface where users can not only discover a diverse array of listings but also contribute by creating their own personalized listings.
+                        EasyBook offers a seamless interface where users can not only discover a diverse array of listings.
                         </p>
                     </div>
                 </div>
@@ -31,9 +32,9 @@ const Projects = () => {
                         className="static-card-image"
                     />
                     <div className="static-card-content">
-                        <h3 className="static-card-title">Static Card Title  <a href="#">Live</a></h3>
+                        <h3 className="static-card-title">ShopSpot <a href="https://shopspots1.netlify.app/">Live</a></h3>
                         <p className="static-card-description">
-                            This is a description for a static card. The content is hardcoded.
+                            Your One stop for shopping, gives seamless user experience. 
                         </p>
                     </div>
                 </div>
@@ -45,9 +46,9 @@ const Projects = () => {
                         className="static-card-image"
                     />
                     <div className="static-card-content">
-                        <h3 className="static-card-title">Static Card Title  <a href="#">Live</a></h3>
+                        <h3 className="static-card-title">RefreshLine <a href="https://github.com/anjali012005/DynamicQuote-Generator">Live</a></h3>
                         <p className="static-card-description">
-                            This is a description for a static card. The content is hardcoded.
+                        Embrace the power of spontaneous inspiration! Explore a repository of wisdom with every refresh.
                         </p>
                     </div>
                 </div>
@@ -59,9 +60,9 @@ const Projects = () => {
                         className="static-card-image"
                     />
                     <div className="static-card-content">
-                        <h3 className="static-card-title">Static Card Title  <a href="#">Live</a></h3>
+                        <h3 className="static-card-title">Weather? <a href="https://master--tiny-yeot-5ba02c.netlify.app/">Live</a></h3>
                         <p className="static-card-description">
-                            This is a description for a static card. The content is hardcoded.
+                            Finding the data of weather of your city and provides seamless user interface.
                         </p>
                     </div>
                 </div>
@@ -73,9 +74,9 @@ const Projects = () => {
                         className="static-card-image"
                     />
                     <div className="static-card-content">
-                        <h3 className="static-card-title">Static Card Title  <a href="#">Live</a></h3>
+                        <h3 className="static-card-title">DoTask <a href="https://github.com/anjali012005/TODO">Live</a></h3>
                         <p className="static-card-description">
-                            This is a description for a static card. The content is hardcoded.
+                            It allows user to add, delete, update their daily tasks.
                         </p>    
                     </div>  
                 </div>
