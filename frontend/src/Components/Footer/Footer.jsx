@@ -22,19 +22,19 @@ const Footer = () => {
 
                 {/* <!-- Footer Social Media Icons --> */}
                 <div class="footer-socials">
-                    <a href="https://www.linkedin.com/in/anjali-daharwal/" target="_blank" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/anjali-daharwal/"  aria-label="LinkedIn">
                         <FaLinkedin />
                     </a>
-                    <a href="https://github.com/anjali012005" target="_blank" aria-label="GitHub">
+                    <a href="https://github.com/anjali012005"  aria-label="GitHub">
                         <FaGithub />
                     </a>
-                    <a href="mailto:anjalidaharwal5@gmail.com?subject=Reaching Out Through Your Portfolio Website" target="_blank" aria-label="G-Mail">
+                    <a href="mailto:anjalidaharwal5@gmail.com?subject=Reaching Out Through Your Portfolio Website"  aria-label="G-Mail">
                         <FaEnvelope />
                     </a>
-                    <a href="https://x.com/anjali01010101" target="_blank" aria-label="Twitter">
+                    <a href="https://x.com/anjali01010101" aria-label="Twitter">
                         <FaTwitter />
                     </a>
-                    <a href="https://join.skype.com/invite/pVkLSjedzt2e" target="_blank" aria-label="Twitter">
+                    <a href="https://join.skype.com/invite/pVkLSjedzt2e"  aria-label="Skype">
                         <FaSkype />
                     </a>
                 </div>

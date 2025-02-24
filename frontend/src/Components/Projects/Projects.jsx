@@ -1,9 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import img1 from '../Assets/experince-img.jpg'
-import easybook from '../../assets/easybook.jpg'
-import shopspot from '../../assets/shopspot.jpg'
-// import img2 from 'frontend/src/assets/easybook.jpg'
+
 
 const Projects = () => {
     return (
